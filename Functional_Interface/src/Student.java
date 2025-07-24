@@ -16,6 +16,12 @@ public class Student {
         this.activities = activities;
     }
 
+    public Student() {}
+    public Student(String name, int gradeLevel) {
+        this.name = name;
+        this.gradeLevel = gradeLevel;
+    }
+
     public String getGender() {
         return gender;
     }
